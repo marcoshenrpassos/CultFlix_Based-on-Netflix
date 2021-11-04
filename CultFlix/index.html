@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <!-- responsiveness -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>CultFlix</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">CultFlix</h2>
+            <nav>
+                <a href="#">Home</a> <!-- alt + shift + arrow down = clone the line -->
+                <a href="#">Movies</a>
+                <a href="#">Documentaries</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-movie">
+            <div class="container">
+                <h3 class="title">THE GODFATHER</h3>
+                <p class="description">Spanning the years 1945 to 1955, a chronicle of the fictional Italian-American Corleone crime family. When organized crime family patriarch, Vito Corleone barely survives an attempt on his life, his youngest son, Michael steps in to take care of the would-be killers, launching a campaign of bloody revenge.</p>
+                <div class="buttons">
+                    <a href="https://www.youtube.com/watch?v=1x0GpEZnwa8" target="_blank">
+                        <button role="button" class="button">
+                            <i class="fas fa-play"></i>WATCH NOW
+                        </button>
+                    </a>
+                    
+                    <button id="myBtn" role="button" class="button">
+                    <i class="fas fa-info-circle"></i>MORE INFORMATION
+                    </button>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                        <span class="close" title="Close">&times;</span>
+                        <div class="boxes-info">
+                            <div>
+                                <h2>The Godfather (1972)</h2>
+                                <h6>Drama, Crime | 2h 55m</h6>
+                                <div class="screenplay-info">
+                                    <p>Francis Ford Coppola</p>
+                                    <p class="role">Director, Screenplay</p>
+
+                                    <p>Mario Puzo</p>
+                                    <p class="role">Novel, Screenplay</p>
+                                </div>
+                            </div>
+                            <div class="actor-info">
+                                <h3>Main Roles</h3>
+                                <div>
+                                    <p class="actor">Marlon Brando</p>
+                                    <p class="role">Don Don Vito Corleone</p>
+                                </div>
+                                <div>
+                                    <p class="actor">Al Pacino</p>
+                                    <p class="role">Don Michael Corleone</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="img/poster1.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster5.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/poster10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/824d079585.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+</body>
+</html>
